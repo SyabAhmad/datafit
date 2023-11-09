@@ -1,20 +1,25 @@
 from setuptools import setup, find_packages
 
-setup(
-    name='datafit',  
-    version='0.2023.1',  
-    description='This is Python Package that automate your data preprocessing. visit [] to learn more about this package.',
-    author='Syed Syab & Hamza Rustam',
-    author_email='syab.se@hotmail.com || hs4647213@gmail.com',
-    url='https://github.com/SyabAhmad/yourpackage',
-    license='MIT',  #license
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()
 
-    packages=find_packages(),  # Automatically include all Python packages
+setup(
+    name='datafit',
+    version='0.2023.7',
+    description='This is a Python package that automates your data preprocessing',
+    long_description=long_description,
+    long_description_content_type='text/x-rst',  # Specify the type of content as Markdown
+    author='Syed Syab & Hamza Rustam',
+    author_email='syab.se@hotmail.com',
+    url='https://github.com/SyabAhmad/datafit',
+    license='MIT',
+
+    packages=find_packages(),
     install_requires=[
-        'numpy>=1.0',  # Replace with your package dependencies
+        'numpy>=1.0',
         'pandas>=1.0',
         'scikit-learn',
-        're',
+
     ],
 
     # Entry points for command-line scripts if applicable

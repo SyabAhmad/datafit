@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datafit
+Version: 0.2023.1
+Summary: This is Python Package that automate your data preprocessing. visit [] to learn more about this package.
+Home-page: https://github.com/SyabAhmad/yourpackage
+Author: Syed Syab & Hamza Rustam
+Author-email: syab.se@hotmail.com || hs4647213@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE

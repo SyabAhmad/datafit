@@ -1,35 +1,33 @@
-```python
 from setuptools import setup, find_packages
 
 longDescription = """
 ## DataFit
-DataFit is a Python package developed for automating data preprocessing.
+DataFit is a python package developed for automating data preprocessing.
+#### Note ```This Package is under development and is open source.```
 
-**Note:** This package is under development and is open source.
-
-This package is developed by Syed Syab and Hamza Rustam for the purpose of the Final Year Project at the University of Swat. Our information is given below:
+This package is developed by Syed Syab and Hamza Rustam for the purpose of Final Year Project at University of Swat.
+our information is given below
 
 ```
 About Project:
-    DataFit is a Python package developed for automating data preprocessing.
-    Project initialization date: 01/OCT/2023
-    Project Finalization Date: 01/Dec/2023 (Expected)
+    DataFit is a python package developed for automating data preprocessing.
+    Project initilization data: 01/OCT/2023
+    Project Finilization Data: 01/Dec/2023 (Expected)
 
 Team Member:
-    Syed Syab: Student (Me) [GitHub: SyabAhmad] [LinkedIn: SyedSyab]
+    Syed Syab: Student (Me) [github.com/SyabAhmad] [linkedin.com/SyedSyab]
     Hamza Rustam: Student
     ================================
     Professor Naeem Ullah: Supervisor 
 ```
+This Package is desinged in a user-friendly manner which means every one can use it.
 
-This Package is designed in a user-friendly manner, which means everyone can use it.
+The main functionality of the package is to just automate the data pre-processing step, and make it easy for machine learning engineers or data scientist.
 
-The main functionality of the package is to automate the data pre-processing step and make it easy for machine learning engineers or data scientists.
-
-Current Functionality of the package includes:
+Current Functionality of the package is:
 ```
     Function:
-        Displaying information
+        displaying information
         Handling Null Value
         Delete Multiple Columns
         Handling Categorical Values
@@ -43,52 +41,51 @@ Current Functionality of the package includes:
 ```commandline
 pip install datafit
 ```
-
-To use this package, it's quite simple. Just import it like pandas and then use it.
-
+To use this package it's quit simple, just import it like pandas and then use it.
 ```python
 import datafit as df
-# To check information of the data
+# to check information of the data
 df.information(data)
 ```
 
-To categorize the data:
+To categorize the data
+```python
+import datafit as df
+
+df.handleCategoricalValues(data,["column1","column2"])
+```
+if you want to not mention the columns name an do it for all columns then simply type **None** inplace of columns names.
+```python
+import datafit as df
+
+df.handleCategoricalValues(data,None)
+```
+
+To Extract numerical values from the columns
 
 ```python
 import datafit as df
 
-df.handleCategoricalValues(data, ["column1", "column2"])
+df.extractValues(data,["columns1", "columns2"])
 ```
 
-If you want to not mention the columns' names and do it for all columns, then simply type **None** in place of column names.
 
-```python
-import datafit as df
+**Note Again:** This package is uder development. 
+if it touches your heart do share it and follow me on **github** [github.com/SyabAhmad] and **linkedin** [linkedin.com/in/SyedSyab]for mote intersting updates
 
-df.handleCategoricalValues(data, None)
-```
 
-To extract numerical values from the columns:
-
-```python
-import datafit as df
-
-df.extractValues(data, ["columns1", "columns2"])
-```
-
-**Note Again:** This package is under development. If it touches your heart, do share it and follow me on **GitHub** [GitHub: SyabAhmad] and **LinkedIn** [LinkedIn: SyedSyab] for more interesting updates.
 """
+
 
 setup(
     name='datafit',
-    version='0.2023.15',
+    version='0.2023.10',
     description='This is a Python package that automates your data preprocessing',
     long_description=longDescription,
     long_description_content_type='text/markdown',  # Specify the type of content as Markdown
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',
-    keywords=['python', 'machine learning', 'data science', 'data', 'preprocessing', 'AI'],
     license='MIT',
 
     packages=find_packages(),
@@ -96,6 +93,7 @@ setup(
         'numpy>=1.0',
         'pandas>=1.0',
         'scikit-learn',
+
     ],
 
     # Entry points for command-line scripts if applicable

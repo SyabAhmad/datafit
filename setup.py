@@ -79,10 +79,10 @@ if it touches your heart do share it and follow me on **github** [github.com/Sya
 
 setup(
     name='datafit',
-    version='0.2023.10',
+    version='0.2023.11',
     description='This is a Python package that automates your data preprocessing',
     long_description=long_description,
-    long_description_content_type='text/plain',  # Specify the type of content as Markdown
+    long_description_content_type='text/markdown',  # Specify the type of content as Markdown
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',

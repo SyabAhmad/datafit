@@ -1,14 +1,12 @@
 DataFit
--------
+
 
 DataFit is a python package developed for automating data preprocessing.
-#### Note ``This Package is under development and is open source.``
+This Package is under development and is open source.
 
 This package is developed by Syed Syab and Hamza Rustam for the purpose
 of Final Year Project at University of Swat. our information is given
 below
-
-::
 
    About Project:
        DataFit is a python package developed for automating data preprocessing.
@@ -18,7 +16,7 @@ below
    Team Member:
        Syed Syab: Student (Me) [github.com/SyabAhmad] [linkedin.com/SyedSyab]
        Hamza Rustam: Student
-       ================================
+
        Professor Naeem Ullah: Supervisor 
 
 This Package is desinged in a user-friendly manner which means every one
@@ -30,7 +28,7 @@ data scientist.
 
 Current Functionality of the package is:
 
-::
+
 
        Function:
            displaying information
@@ -43,16 +41,14 @@ Current Functionality of the package is:
            Tokenization
 
 To use the package
-~~~~~~~~~~~~~~~~~~
 
-.. code:: commandline
 
    pip install datafit
 
 To use this package it’s quit simple, just import it like pandas and
 then use it.
 
-.. code:: python
+ python
 
    import datafit as df
    # to check information of the data
@@ -60,16 +56,16 @@ then use it.
 
 To categorize the data
 
-.. code:: python
+
 
    import datafit as df
 
    df.handleCategoricalValues(data,["column1","column2"])
 
 if you want to not mention the columns name an do it for all columns
-then simply type **None** inplace of columns names.
+then simply type None inplace of columns names.
 
-.. code:: python
+
 
    import datafit as df
 
@@ -77,12 +73,12 @@ then simply type **None** inplace of columns names.
 
 To Extract numerical values from the columns
 
-.. code:: python
+
 
    import datafit as df
 
    df.extractValues(data,["columns1", "columns2"])
 
-**Note Again:** This package is uder development. if it touches your
-heart do share it and follow me on **github** [github.com/SyabAhmad] and
-**linkedin** [linkedin.com/in/SyedSyab]for mote intersting updates
+Note Again: This package is uder development. if it touches your
+heart do share it and follow me on github github.com/SyabAhmad and
+linkedin linkedin.com/in/SyedSyab for mote intersting updates

@@ -87,6 +87,7 @@ if it touches your heart do share it and follow me on **github** [github.com/Sya
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',
+    keywords=['python', 'machine learning', 'data science', 'data', 'preprocessing', 'AI'],
     license='MIT',
 
     packages=find_packages(),

@@ -10,7 +10,6 @@ setup(
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',
     license='MIT',
-
     packages=find_packages(),
     install_requires=[
         'numpy>=1.0',
@@ -18,13 +17,11 @@ setup(
         'scikit-learn',
 
     ],
-
     entry_points={
         'console_scripts': [
             'my_script = datafit.datafit:information',
         ],
     },
-
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

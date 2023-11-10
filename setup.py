@@ -1,6 +1,14 @@
 from setuptools import setup, find_packages
 
-longDescription = """
+longDescription = 
+
+
+setup(
+    name='datafit',
+    version='0.2023.11',
+    description='This is a Python package that automates your data preprocessing',
+    # long_description=longDescription,
+    long_description = """
 ## DataFit
 DataFit is a python package developed for automating data preprocessing.
 #### Note ```This Package is under development and is open source.```
@@ -74,14 +82,7 @@ df.extractValues(data,["columns1", "columns2"])
 if it touches your heart do share it and follow me on **github** [github.com/SyabAhmad] and **linkedin** [linkedin.com/in/SyedSyab]for mote intersting updates
 
 
-"""
-
-
-setup(
-    name='datafit',
-    version='0.2023.11',
-    description='This is a Python package that automates your data preprocessing',
-    long_description=longDescription,
+""",
     long_description_content_type='text/markdown',  # Specify the type of content as Markdown
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',

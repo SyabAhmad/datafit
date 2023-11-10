@@ -83,7 +83,7 @@ if it touches your heart do share it and follow me on **github** [github.com/Sya
 
 
 """,
-    long_description_content_type='text/markdown',  # Specify the type of content as Markdown
+    long_description_content_type='text/x-rst',  # Specify the type of content as Markdown
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',

@@ -4,7 +4,7 @@ setup(
     name='datafit',
     version='0.2023.2',
     description='This is a Python package that automates your data preprocessing',
-    long_description='This is a Python package that automates your data preprocessing we will add documentation here on how to use this package',
+    long_description='This is a Python package that automates your data preprocessing',
     long_description_content_type='text/plain',
     author='Syed Syab',
     author_email='syab.se@hotmail.com',

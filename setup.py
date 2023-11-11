@@ -22,7 +22,7 @@ setup(
     # Entry points for command-line scripts if applicable
     entry_points={
         'console_scripts': [
-            'my_script = datafit.datafit:information',
+            'my_script = datafit.__init__.py',
         ],
     },
 

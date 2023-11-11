@@ -1,1 +1,1 @@
-from datafit import *
+import datafit

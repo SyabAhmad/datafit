@@ -5,7 +5,7 @@ setup(
     version='0.2023.2',
     description='This is a Python package that automates your data preprocessing',
     long_description='This is a Python package that automates your data preprocessing',
-    long_description_content_type='text/plain',  # Specify the type of content as Markdown
+    long_description_content_type='text/x-rst',  # Specify the type of content as Markdown
     author='Syed Syab & Hamza Rustam',
     author_email='syab.se@hotmail.com',
     url='https://github.com/SyabAhmad/datafit',
